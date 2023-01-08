@@ -1,0 +1,42 @@
+// Action
+
+.action-wrapper {
+  flex: 1;
+}
+
+.action-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-item {
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e6eb;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dcdfe7;
+  }
+}
+
+.action-item + .action-item {
+  margin-left: 8px;
+}
+
+.avatar-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

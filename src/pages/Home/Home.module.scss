@@ -1,0 +1,25 @@
+.Wrapper {
+  display: flex;
+  background-color: #f0f2f5;
+}
+
+.sidebar,
+.complementary {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color1);
+  overflow-y: scroll;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+
+.complementary {
+  flex: 1;
+}
